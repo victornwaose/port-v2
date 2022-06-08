@@ -1,6 +1,14 @@
 import React from "react";
 
-import { Hero, Contact, Header, Portfolio, Work, About } from "../components";
+import {
+    Hero,
+    Contact,
+    Header,
+    Portfolio,
+    Work,
+    About,
+    Socials,
+} from "../components";
 
 const Homepage = () => {
     return (
@@ -11,6 +19,7 @@ const Homepage = () => {
             <Work />
             <About />
             <Contact />
+            <Socials />
         </div>
     );
 };
