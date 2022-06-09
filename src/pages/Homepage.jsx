@@ -8,6 +8,7 @@ import {
     Work,
     About,
     Socials,
+    Email,
 } from "../components";
 
 const Homepage = () => {
@@ -20,6 +21,7 @@ const Homepage = () => {
             <About />
             <Contact />
             <Socials />
+            <Email />
         </div>
     );
 };
