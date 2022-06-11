@@ -3,8 +3,8 @@ import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 import ITyped from "react-ityped";
 import { FaLongArrowAltRight } from "react-icons/fa";
 
-import Yellow from "../../asset/pattern_2.svg";
-import Smily from "../../asset/smilly_face.png";
+import Yellow from "../../assets/pattern_2.svg";
+import Smily from "../../assets/smilly_face.png";
 
 const Hero = () => {
     const strings = ["Startups", "SMEs"];

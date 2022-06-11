@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 
-import Line from "../../asset/pattern_3.svg";
+import Line from "../../assets/pattern_3.svg";
 import Tab1 from "./tabs/Tab1";
 import Tab2 from "./tabs/Tab2";
 
@@ -19,7 +19,7 @@ const Work = () => {
             <img
                 src={Line}
                 alt="lines"
-                className="absolute top-0 h-36 w-[50%]  -left-10"
+                className="absolute top-0 h-36 w-[50%] -left-10"
             />{" "}
             <div className="w-40/50 ml-auto mr-auto mt-12 mb-12 relative  ">
                 <div className="w-[60%] ml-auto mr-auto">

@@ -1,7 +1,7 @@
 import React from "react";
 import { FaPlay } from "react-icons/fa";
 
-import Victor from "../../asset/IMG_20171226_123706.jpg";
+import Victor from "../../assets/IMG_20171226_123706.jpg";
 
 const About = () => {
     return (
