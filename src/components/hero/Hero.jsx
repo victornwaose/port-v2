@@ -21,16 +21,16 @@ const Hero = () => {
                     className="hidden  md:block  md:w-24 md:opacity-70 "
                 />
             </div>
-            <div className="w-40/50  ml-auto mr-auto mt-10">
+            <div className="w-[80%]  ml-auto mr-auto mt-10">
                 <div className=" text-left  pt-24 mt-20 relative ">
-                    <p class="text-gray-500 md:text-lg mb-5 hide-slideUp ">
+                    <p className="text-gray-500 md:text-lg mb-5 hide-slideUp ">
                         Hello, I am{" "}
-                        <span class="text-gray-900 inline-block">N</span>
-                        <span class="hidden-name inline-block align-middle mr-2">
+                        <span className="text-gray-900 inline-block">N</span>
+                        <span className="hidden-name inline-block align-middle mr-2">
                             waose
                         </span>
-                        <span class="text-gray-900">V</span>
-                        <span class="hidden-name inline-block align-middle">
+                        <span className="text-gray-900">V</span>
+                        <span className="hidden-name inline-block align-middle">
                             ictor
                         </span>
                     </p>
@@ -47,7 +47,7 @@ const Hero = () => {
                         />
                     </h1>
                 </div>
-                <div className="w-full rounded-3xl  flex  flex-wrap lg:rounded-full mt-10 p-3 border  items-center  border-gray-400 md:w-2/4 ">
+                <div className="w-full rounded-3xl  flex  flex-wrap lg:rounded-full mt-10 p-3 border  items-center  border-gray-400 md:w-[33%] ">
                     <Link
                         to="/"
                         className="w-full lg:w-auto flex text-sm  bg-emerald-500 p-3 rounded-full text-white md:text-base font-semibold hover:bg-emerald-900"
@@ -66,7 +66,7 @@ const Hero = () => {
                         <h4 className=" text-base p-3 text-emerald-500 hover:bg-emerald-200 font-semibold">
                             About ME
                         </h4>{" "}
-                        <img className="w-3/2" src={Smily} alt="simly" />
+                        <img className="w-[30px]" src={Smily} alt="simly" />
                     </Link>
                 </div>
             </div>

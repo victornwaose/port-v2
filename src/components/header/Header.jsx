@@ -6,7 +6,7 @@ import "./Header.css";
 const Header = () => {
     return (
         <div className=" header fixed top-0 left-0 right-0 z-20 bg-white transparent  h-20">
-            <header className="flex justify-between cursor-pointer w-40/50  ml-auto mr-auto mt-3 ">
+            <header className="flex justify-between cursor-pointer w-[80%] ml-auto mr-auto mt-3 ">
                 <div className="">
                     <img
                         src="/logo.png"

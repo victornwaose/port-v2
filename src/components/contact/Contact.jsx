@@ -2,7 +2,7 @@ import React from "react";
 
 const Contact = () => {
     return (
-        <div className="w-40/50 ml-auto mr-auto mt-12 mb-12">
+        <div className="w-[80%] ml-auto mr-auto mt-12 mb-12">
             <div className="contact w-[100%] h-full rounded-3xl">
                 <div className="flex justify-between w-[95%] ml-auto mr-auto">
                     <div className="px-5 py-6 w-[50%]">

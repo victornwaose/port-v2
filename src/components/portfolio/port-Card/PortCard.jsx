@@ -10,8 +10,8 @@ const PortCard = ({ data }) => {
                     0{data.id}
                 </div>
                 <div className="flex ">
-                    <FaGithub className="mr-3  w-40/50 h-7 text-emerald-300  cursor-pointer" />
-                    <MdOutlineOpenInNew className="w-40/50 h-7 text-emerald-300 cursor-pointer" />
+                    <FaGithub className="mr-3  w-[80%] h-7 text-emerald-300  cursor-pointer" />
+                    <MdOutlineOpenInNew className="w-[80%] h-7 text-emerald-300 cursor-pointer" />
                 </div>
             </div>
             <div className="mt-2">

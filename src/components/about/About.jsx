@@ -5,7 +5,7 @@ import Victor from "../../assets/IMG_20171226_123706.jpg";
 
 const About = () => {
     return (
-        <div className="w-40/50 ml-auto mr-auto mt-12">
+        <div className="w-[80%] ml-auto mr-auto mt-12">
             <div className="flex">
                 <div className="flex">
                     <h2 className="text-emerald-700 font-bold text-2xl mr-3 mt-1">
@@ -15,11 +15,11 @@ const About = () => {
                         About Me{" "}
                     </h1>
                 </div>
-                <span className=" height w-1/2  bg-gray-400 mt-6 ml-2 "></span>
+                <span className=" height w-[340px]  bg-gray-400 mt-6 ml-2 "></span>
             </div>
             <div className="flex flex-col-reverse md:flex-row">
                 <div className="mt-4">
-                    <div className="w-2/3 text-gray-500 font-semibold text-base">
+                    <div className="w-[90%] text-gray-500 font-semibold text-base">
                         {" "}
                         <h2 className="text-gray-500   ">
                             My name is Victor Nwaose a full-stack engineer with

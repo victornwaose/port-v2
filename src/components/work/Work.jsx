@@ -21,7 +21,7 @@ const Work = () => {
                 alt="lines"
                 className="absolute top-0 h-36 w-[50%] -left-10"
             />{" "}
-            <div className="w-40/50 ml-auto mr-auto mt-12 mb-12 relative  ">
+            <div className="w-[80%] ml-auto mr-auto mt-12 mb-12 relative  ">
                 <div className="w-[60%] ml-auto mr-auto">
                     <div className=" flex justify-starts mb-5 md:align-center md:justify-center">
                         <h1 className="text-emerald-700 font-bold text-2xl mr-4 ">
