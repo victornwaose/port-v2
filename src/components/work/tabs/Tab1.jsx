@@ -27,7 +27,7 @@ const Tab1 = () => {
 
                         <div className="flex mb-4 mt-2">
                             <FaPlay className="mr-2 w-[9px] mt-1 text-emerald-200 " />
-                            <h1 className="text-base flex align-start ">
+                            <h1 className="text-base flex  text-left align-start ">
                                 ALso taught Web Development like HTML5 CSS3 and
                                 JavaScript course to Students{" "}
                             </h1>
