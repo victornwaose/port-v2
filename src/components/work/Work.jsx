@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 
 import Line from "../../assets/pattern_3.svg";
-import Tab1 from "./tabs/Tab1";
+import JDCOMP from "./tabs/JDCOMP";
 import Tab2 from "./tabs/Tab2";
 
 const Work = () => {
@@ -36,7 +36,7 @@ const Work = () => {
                             <span className=" md:border-[1px] md:w-[1px]  md:h-64"></span>{" "}
                             <ul className="flex  flex-row md:flex-col  list-none md:overflow-x-auto ">
                                 <li
-                                    className={`activeTab === "tab2" ? "active" : ""md:py-4 px-3 font-mono text-gray-500  rounded-md md:inline-block w-auto  text-lg capitalize md:whitespace-nowrap cursor-pointer  -mb-0 hover:bg-emerald-200  md:hover:py-2`}
+                                    className={`activeTab === "tab1" ? "active" : ""md:py-4 px-3 font-mono text-gray-500  rounded-md md:inline-block w-auto  text-lg capitalize md:whitespace-nowrap cursor-pointer  -mb-0 hover:bg-emerald-200  md:hover:py-2`}
                                     onClick={handleTab1}
                                 >
                                     JD computer
@@ -51,7 +51,7 @@ const Work = () => {
                         </div>
 
                         <div className="flex-grow py-0 pl-4">
-                            {activeTab === "tab1" ? <Tab1 /> : <Tab2 />}
+                            {activeTab === "tab1" ? <JDCOMP /> : <Tab2 />}
                         </div>
                     </div>
                 </div>

@@ -70,6 +70,10 @@ const About = () => {
                                 <FaPlay className="mr-2 w-[9px] mt-1 text-emerald-200" />
                                 <h1 className="text-base">Material-Ui</h1>
                             </div>
+                            <div className="flex mb-4">
+                                <FaPlay className="mr-2 w-[9px] mt-1 text-emerald-200" />
+                                <h1 className="text-base">Word-press</h1>
+                            </div>
                         </div>
                     </div>
                 </div>

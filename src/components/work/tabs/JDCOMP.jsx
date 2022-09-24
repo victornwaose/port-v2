@@ -1,11 +1,11 @@
 import React from "react";
 import { FaPlay } from "react-icons/fa";
 
-const Tab1 = () => {
+const JDCOMP = () => {
     return (
         <div className="text-gray-500 font-semibold text-base">
             <div>
-                <h4 className="flex mt-3 mb-3 md:mt-0 text-base ">
+                <h4 className="flex mt-3 mb-3 md:mt-0 text-base cursor-pointer">
                     Computer Instructor (Full-time)
                     <span className="text-emerald-200 text-base">
                         @JD Computer Technologies
@@ -39,4 +39,4 @@ const Tab1 = () => {
     );
 };
 
-export default Tab1;
+export default JDCOMP;

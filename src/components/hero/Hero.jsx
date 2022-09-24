@@ -47,10 +47,10 @@ const Hero = () => {
                         />
                     </h1>
                 </div>
-                <div className="w-full rounded-3xl  flex  flex-wrap lg:rounded-full mt-10 p-3 border  items-center  border-gray-400 md:w-[33%] ">
+                <div className="w-full rounded-3xl  flex  flex-wrap items-center lg:rounded-full mt-10 p-3 border    border-gray-400 md:w-[33%] ">
                     <Link
                         to="/"
-                        className="w-full lg:w-auto flex text-sm  bg-emerald-500 p-3 rounded-full text-white md:text-base font-semibold hover:bg-emerald-900"
+                        className="w-full lg:w-auto flex text-sm  bg-emerald-500 p-3 rounded-full text-white md:text-base font-semibold hover:bg-emerald-900 items-center"
                     >
                         {" "}
                         View my portfolio{" "}
@@ -60,10 +60,10 @@ const Hero = () => {
                     </Link>
                     <Link
                         to="/"
-                        className="flex w-full mt-2  rounded-full hover:bg-emerald-200 lg:m-0 lg:w-auto"
+                        className="flex w-full mt-2 ml-3 rounded-full hover:bg-emerald-200 lg:m-0  "
                     >
                         {" "}
-                        <h4 className=" text-base p-3 text-emerald-500 hover:bg-emerald-200 font-semibold">
+                        <h4 className=" text-base p-3 text-emerald-500 font-semibold">
                             About ME
                         </h4>{" "}
                         <img className="w-[30px]" src={Smily} alt="simly" />

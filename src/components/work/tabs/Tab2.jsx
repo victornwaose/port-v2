@@ -19,17 +19,14 @@ const Tab2 = () => {
                         <div className="flex">
                             <FaPlay className="mr-2 w-[9px] mt-1 text-emerald-200 " />
                             <h1 className="text-base flex   text-left align-start ">
-                                Taught computer appreciation to the student this
-                                include topics like Microsoft Word, Excel,
-                                PowerPoint and Access
+                                Designed and created the Company website <a href="">@FidelityFortune</a> 
                             </h1>
                         </div>
 
                         <div className="flex mb-4">
                             <FaPlay className="mr-2 w-[9px] mt-1 text-emerald-200" />
                             <h1 className="text-base flex  text-left align-start  ">
-                                ALso taught Web Development like HTML5 CSS3 and
-                                JavaScript course to Students{" "}
+                              Also worked at as data anaylst  with Microsoft tool like Word Excel and Access
                             </h1>
                         </div>
                     </div>
