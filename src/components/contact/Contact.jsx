@@ -21,7 +21,7 @@ const Contact = () => {
                     </div>
                     <div className="bg-transparent mb-3  h-full  cursor-pointer md:mb-0">
                         {" "}
-                        <button className=" w-[100%]  px-3 py-2 mt-0 rounded-3xl bg-green-700 text-lg border-yellow-300  text-yellow-300 font-sans p-1  hover:bg-yellow-300 hover:text-white md:text-xl md:mt-9">
+                        <button className=" w-[100%]  px-3 py-2 mt-0 rounded-3xl bg-green-700 text-lg border-yellow-300  text-white  font-sans p-1  hover:bg-yellow-300 hover:text-white md:text-xl md:mt-9">
                             Say Hello
                         </button>
                     </div>

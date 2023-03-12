@@ -5,13 +5,13 @@ const JDCOMP = () => {
     return (
         <div className="text-gray-500 font-semibold text-base">
             <div>
-                <h4 className="flex mt-3 mb-3 md:mt-0 text-base cursor-pointer">
+                <h4 className="flex flex-col md:flex-row mt-3 mb-3 text-left md:mt-0 text-base cursor-pointer">
                     Computer Instructor (Full-time)
                     <span className="text-emerald-200 text-base">
                         @JD Computer Technologies
                     </span>
                 </h4>
-                <h5 className="flex al whitespace-nowrap mt-2">
+                <h5 className="flex  whitespace-nowrap mt-2">
                     December 2020 - April 2021
                 </h5>
                 <div>

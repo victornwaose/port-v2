@@ -14,7 +14,7 @@ const Portfolio = () => {
             </div>
             <div className="grid  m-auto sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-2">
                 {data?.map((data) => (
-                    <div>
+                    <div key={data?.id}>
                         <PortCard data={data} />
                     </div>
                 ))}
